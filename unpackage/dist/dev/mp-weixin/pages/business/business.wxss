@@ -1,0 +1,185 @@
+
+.banner.data-v-ec9204da{
+		width: 100%;
+		height: 150rpx;
+		background-color: aquamarine;
+}
+.main.data-v-ec9204da{
+		margin-top: -20rpx;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+		background-color: #fff;
+}
+.bus-info.data-v-ec9204da{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+}
+.bus-detail.data-v-ec9204da{
+		width: 60%;
+}
+.bus-img.data-v-ec9204da{
+		width: 160rpx;
+		height: 160rpx;
+		border: 2rpx solid #aaa;
+		border-radius: 20rpx;
+}
+.name.data-v-ec9204da{
+		margin: 10rpx 0;
+		white-space: nowrap;
+		overflow: hidden;
+		font-size: 40rpx;
+		font-weight: bold;
+}
+.score.data-v-ec9204da{
+		color: orange;
+		display: inline-block;
+		margin-right: 30rpx;
+}
+.saleVolume.data-v-ec9204da{
+		display: inline-block;
+}
+.bus-tab.data-v-ec9204da{
+		width: 100;
+		display: flex;
+		justify-content: space-around;
+		border-bottom: 2px solid #eee;
+}
+.tab.data-v-ec9204da{
+		width: 30%;
+		padding: 30rpx;  
+		text-align: center;
+}
+.tab-active.data-v-ec9204da{
+		border-bottom: 4rpx solid #ffe400;
+}
+.order-menubar.data-v-ec9204da{
+		float: left;
+		height: 950rpx;
+		padding-bottom: 130rpx;
+		width: 25%;
+		background: #eee;
+}
+.order-foodbar.data-v-ec9204da{
+		float: left;
+		height: 1080rpx;
+		width: 75%;
+}
+.menu.data-v-ec9204da{
+		padding: 40rpx 0;
+		text-align: center;
+		overflow: hidden;
+		border-bottom: 2rpx solid #ddd;
+}
+.menu-selected.data-v-ec9204da{
+		background-color: #fff;
+		border-left: 8rpx solid #ffe400;
+}
+.food-info.data-v-ec9204da{
+		display: flex;
+		height: 250rpx;
+		background-color: #fff;
+		border-radius: 30rpx;
+		border: 2rpx solid #ddd;
+		margin: 15rpx;
+}
+.food-info .food-img.data-v-ec9204da{
+		height: 100%;
+		margin-left: 30rpx;
+		max-width: 280rpx
+}
+.food-detail.data-v-ec9204da{
+		position: absolute;
+		right: 15%;
+		padding-top:20rpx;
+		text-align: right;
+		height: 250rpx;
+}
+.food-name.data-v-ec9204da{
+		float:right;
+		max-height: 100rpx;
+		overflow: hidden;
+		font-size: 26rpx;
+		width: 150rpx;
+}
+.food-price.data-v-ec9204da{
+		color: red;
+		font-size: 40rpx;
+}
+.addOrReduce.data-v-ec9204da{
+		position: absolute;
+		bottom: 60rpx;
+		right: -10rpx;
+}
+.addOrReduce > .iconfont.data-v-ec9204da {
+	  font-size: 40rpx;
+	  color: #ffe400;
+	  padding:15rpx;
+}
+.info_top.data-v-ec9204da {
+	  margin-top: 10rpx;
+	  background: white;
+	  padding: 20rpx 40rpx;
+}
+.info_title.data-v-ec9204da {
+	  font-weight: bold;
+	  border-bottom: 2rpx solid #ddd;
+	  padding-bottom: 20rpx;
+}
+.info_top>.iconfont.data-v-ec9204da {
+	  line-height: 60rpx;
+	  font-size: 28rpx;
+	  color: #666;
+}
+.info_top>.iconfont.data-v-ec9204da:before {
+	  margin-right: 20rpx;
+	  font-size: 40rpx;
+}
+.info_top>.icon-zhekou.data-v-ec9204da:before {  
+	  color: #f74d4d;
+}
+.bottomTab.data-v-ec9204da{
+		position: fixed;
+		bottom: 30rpx;
+		background: #222;
+		display: flex;
+		align-items: center;
+		width: 90%;
+		border-radius: 50rpx;
+		margin: 0 5%;
+		height: 100rpx;
+}
+.bottomTab .curExpense.data-v-ec9204da{
+		color: #fff;
+		font-size: 40rpx;
+		text-align: right;
+		padding: 30rpx;
+		flex-grow: 0.2;
+}
+.bottomTab .delExpense.data-v-ec9204da{
+		color: #ccc;
+		font-size: 27rpx;
+}
+.bottomTab .confirm.data-v-ec9204da{
+		position:absolute;
+		right: -2rpx;
+		color: #ccc;
+		font-size: 35rpx;
+		
+		width: 200rpx;
+}
+.bottomTab .confirm-enough.data-v-ec9204da{
+		position:absolute;
+		right: -2rpx;
+		
+		color: #000;
+		height: 100rpx;
+		width: 200rpx;
+		border-top-right-radius: 50rpx;
+		border-bottom-right-radius: 50rpx;
+		font-size: 35rpx;
+		font-weight: bold;
+		text-align: center;
+		line-height: 100rpx;
+		background-color: #ffe400;
+}

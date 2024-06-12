@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "my-login": "../../uni_modules/my-login/components/my-login/my-login"
+  }
+}

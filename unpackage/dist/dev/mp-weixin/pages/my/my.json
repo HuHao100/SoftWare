@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "智慧武大",
+  "usingComponents": {
+    "my-login": "../../uni_modules/my-login/components/my-login/my-login"
+  }
+}

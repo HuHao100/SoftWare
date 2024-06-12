@@ -1,0 +1,14 @@
+
+.info{
+		background-color: aqua;
+		padding: 30rpx;
+}
+.avatar{
+		width: 150rpx;
+		height: 150rpx;
+		border-radius: 50%;
+}
+.username{
+		margin: 50rpx;
+		vertical-align: top;
+}
